@@ -122,6 +122,50 @@ main > section {
   color: rgba(255, 144, 14, 1);
 }
 
+/* feature style */
+.feature-container {
+  display: flex;
+  gap: 140px;
+}
+
+.feature-container-title {
+  border-left: 5px solid rgba(255, 144, 14, 1);
+  padding-left: 20px;
+}
+.feature-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #131313;
+  margin: 0;
+}
+
+.feature-card {
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+}
+
+.container-arch img {
+  width: 100%;
+}
+
+#experience-batch {
+  padding: 46px 42px;
+  margin-top: -125px;
+  margin-left: -77px;
+}
+
+.year-span {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.experience-span {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
 /* facts-style */
 .fact-div {
   max-width: 550px;
@@ -185,7 +229,8 @@ main > section {
   /* header section */
   .navbar,
   .nav-items,
-  .explore-container {
+  .explore-container,
+  .feature-container {
     flex-direction: column;
   }
 
@@ -218,6 +263,17 @@ main > section {
     margin-top: 50px;
   }
 
+  /* feature style */
+
+  .feature-container {
+    gap: 24px;
+  }
+
+  #experience-batch {
+    margin-top: 15px;
+    margin-left: 2px;
+  }
+
   /* fact section */
 
   .card-icons {
@@ -247,6 +303,22 @@ main > section {
     margin: 20px auto;
   }
 
+  /* feature */
+  #experience-batch {
+    margin-top: 0 auto;
+    margin-top: 20px;
+    margin-left: 250px;
+  }
+
+  /* fact section */
+  .fact-div {
+    text-align: center;
+    margin-left: 200px;
+  }
+
+  .feature-container {
+    flex-direction: column;
+  }
   /* card-section */
   .card-icons,
   .sponsor-companie {
