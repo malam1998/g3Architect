@@ -224,6 +224,16 @@ main > section {
   filter: grayscale(100%);
 }
 
+/* footer */
+.footer {
+  height: 100px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
 /* media query */
 @media screen and (max-width: 576px) {
   /* header section */
